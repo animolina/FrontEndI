@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../practicaIntegradora/css/stylesSuper.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav id="nav-principal">
+            <span>20% de descuento en todos los productos</span>
+        </nav>
+        <nav id="nav-secundaria">
+            <img src="../practicaIntegradora/img/logoTienda.svg" alt="logo de la tienda">
+            <span>Nombre tienda</span>
+        </nav>
+        <nav id="nav-opciones">
+            <ul type="none">
+                <li><a href="../practicaIntegradora/indexContacto.html">Contacto</a></li>
+                <li><a href="../practicaIntegradora/indexRegistro.html">Registrarme</a></li>
+                <li><a href="../practicaIntegradora/indexLogin.html">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div id="recuadro">
+            <h3>Añadí tu super!</h3>
+            <p>Agregá tu personaje favorito completando las opciones</p>
+            <form id="main" action="#">
+                <div id="datos-fecha-contenido">
+                    <div id="datos">
+                        <label for="nombre">Nombre</label>
+                        <input class="full" type="text" id="Nombre" name="Nombre">
+                    </div>
+                    <div id="fecha">
+                        <label for="fecha">Fecha</label>
+                        <input class="full" type="date" id="fecha" name="fecha" placeholder="dd/mm/aaaa" min="1990-01-01" max="2021-12-31">
+                    </div>
+                    <div id="contenido">
+                        <textarea class="full" id="texto" name="texto" placeholder="Mega visión, supermente, corazón ultra grande, supersonrisa, superoído, supermanos codeadoras."></textarea>
+                    </div>
+                </div>
+                <div id="especie-foto-poderes">
+                    <div id="especie">
+                        <label for="especie">Especie</label>
+                        <select class="full" id="especie" name="especie" placeholder="Especie">
+                            <option value="select" disabled selected hidden>Seleccionar opción...</option>
+                            <option value="Unknown">Unknown</option>
+                            <option value="Humano">Humano</option>
+                            <option value="Super humano">Super humano</option>
+                        </select>
+                    </div>
+                    <div id="foto">
+                        <label for="archivo">Agregar foto</label>
+                        <input type="file" id="archivo" name="archivo" accept="image/png, image/jpeg">
+                    </div>
+                    <div id="poderes-personaje">
+                        <h4>Poderes</h4>
+                        <form>
+                            <div>
+                                <input class="checkbox" id="volar" type="checkbox" height="1rem">
+                                <label class="labelcheck" for="volar">Volar</label>
+                            </div>
+                            <div>
+                                <input class="checkbox" id="superinteligencia" type="checkbox" height="1rem">
+                                <label class="labelcheck" for="superinteligencia">Superinteligencia</label>
+                            </div>
+                            <div>
+                                <input class="checkbox" id="laser" type="checkbox" height="1rem">
+                                <label class="labelcheck" for="laser">Vista de rayo láser</label>
+                            </div>
+                            <div>
+                                <input class="checkbox" id="billetera" type="checkbox" height="1rem">
+                                <label class="labelcheck" for="billetera">Billetera Gorda</label>
+                            </div>
+                        </form>
+                        <br>
+                        <hr>
+                        <h4>Tipo de personaje</h4>
+                        <form>
+                            <div>
+                                <input class="radio" id="heroe" type="radio" height="1rem" value="heroe/heroina">
+                                <label class="radiocheck" for="heroe">Héroe/Heroina</label>
+                            </div>
+                            <div>
+                                <input class="radio" id="villano" type="radio" height="1rem" value="villano/villana">
+                                <label class="radiocheck" for="villano">Villano/Villana</label>
+                            </div>
+                        </form>
+                    </div>
+                </div>                  
+            </form>
+            <div>
+                <input type="submit" id="Añadir" name="Añadir" value="Añadir">
+            </div>      
+        </div>            
+    </section>            
+    <footer>
+        Todos los derechos reservados a FRONT END 1
+    </footer>
+</body>
+</html>                               
+     
+                            
+                        
+
+
+
+
+                    
+      
+ 
+                
+                
+
+
+
