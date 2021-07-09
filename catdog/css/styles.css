@@ -43,6 +43,10 @@ font-weight: 400;
     margin: 0.5rem;
 }
 
+#menu li::before{
+    content:url(../img/iconoFoot.svg);
+    
+}
 
 
 /*estilo SECCIÓN BANNER*/
@@ -96,6 +100,11 @@ font-weight: 400;
     flex-wrap: wrap;
     text-align: center;
     margin: 0.5rem;
+}
+
+#productos h1::before{
+    content: url(../img/iconoFoot.png);
+    display: block;
 }
 
 
